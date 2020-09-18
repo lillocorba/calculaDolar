@@ -1,0 +1,103 @@
+body {
+    font-size: 62,5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hero__row1__col1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #28B463;
+}
+
+.hero__h3 {
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.hero__row2__col1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.input__p {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.input__p2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.hero__fieldset {
+    text-align: center;
+}
+
+#btn__calcular {
+    margin-top: 30px;
+}
+
+#input__dolares {
+    border-radius: 100px;
+    border: solid 1.2px #28B463;
+    text-align: center;
+    width: 300px;
+}
+
+#input__dolares:focus {
+    outline: none;
+}
+
+#input__pesos {
+    border-radius: 100px;
+    border: solid 1px #28B463;
+    text-align: center;
+    width: 300px;
+}
+
+#btn__calcular {
+    background-color: #28B463;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    padding: 7px 15px 7px 15px;
+}
+
+.hero__alberto {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.open {
+    display: block;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s ease-in-out;
+}
